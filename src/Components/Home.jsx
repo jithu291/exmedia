@@ -43,8 +43,8 @@ function Home() {
 
   return (
     <>
-      <div ref={homeRef}>
-        <div className='row' style={{ position: 'relative', width: '100%', height: '100vh', backgroundColor: '#e6e6e6' }}>
+      <div  ref={homeRef}>
+        <div className='row' style={{ position: 'relative', width: '100%', height: '100vh', backgroundColor: '#e6e6e6',overflow:'hidden' }}>
           <div className='col-lg-6 ' >
             <h1 data-aos="fade-up" className='ms-5' style={{ marginTop: '220px', fontFamily: '"Playfair Display", serif', fontSize: '55px' }}>Experience premier digital solutions with us...</h1>
             <button onClick={() => scrollToRef(ouurServicesRef)} style={{ marginLeft: '50px' }}>Services</button>
@@ -87,7 +87,7 @@ function Home() {
           <FaWhatsapp className="whatsapp-icon" />
         </a>
       </div>
-      <div ref={servicesRef} style={{ width: '100%', height: '130vh', backgroundColor: '#F5F5F5', marginTop: '-10px' }}>
+      <div ref={servicesRef} style={{ width: '100%', height: '140vh', backgroundColor: '#F5F5F5', marginTop: '-10px' }}>
         <center>
           <h1 data-aos="fade-up" className='head1'>
             WHAT WE DO
@@ -96,11 +96,11 @@ function Home() {
             WE OFFER DIGITAL SOLUTIONS
           </h3>
         </center>
-        <div className=' d-flex justify-content-evenly' style={{ width: '100%', height: '80vh', marginTop: '80px'}}>
+        <div className=' d-flex justify-content-evenly' style={{ width: '100%', height: '85vh', marginTop: '80px',overflow:'hidden' }}>
           <div className='studio   ' style={{ width: '30%', height: '80%' }}>
             <img data-aos="fade-up-right" className='studio-img' src={studio} alt="" />
             <center>
-              <h2 style={{ marginTop: '380px', fontFamily: '"Playfair Display", serif' }}>Studio</h2>
+              <h2 style={{ marginTop: '400px', fontFamily: '"Playfair Display", serif' }}>Studio</h2>
               <p>ELEVATE YOUR IMPACTS & CONNECT BRANDS WITH CUSTOMERS</p>
             </center>
           </div>
@@ -108,7 +108,7 @@ function Home() {
           <div className='graphics ' style={{ width: '30%', height: '80%' }}>
             <img className='graphics-img' src={graphics} alt="" />
             <center>
-              <h2 style={{ marginTop: '380px', fontFamily: '"Playfair Display", serif' }}>Graphics</h2>
+              <h2 style={{ marginTop: '400px', fontFamily: '"Playfair Display", serif' }}>Graphics</h2>
               <p>DESIGNS THAT
                 INSPIRE, CONNECT,
                 AND LEAVE A LASTING IMPRESSION</p>
@@ -117,14 +117,14 @@ function Home() {
           <div className='brand ' style={{ width: '30%', height: '80%' }}>
             <img data-aos="fade-up-left" className='brand-img' src={brand} alt="" />
             <center>
-              <h2 style={{ marginTop: '380px', fontFamily: '"Playfair Display", serif' }}>Branding</h2>
+              <h2 style={{ marginTop: '400px', fontFamily: '"Playfair Display", serif' }}>Branding</h2>
               <p>YOUR BRAND, YOUR STORY:
                 WE SHAPE IDENTITIES
                 WITH IMPACT</p>
             </center>
           </div>
         </div>
-        <div ref={aboutUsRef} className='row1 d-flex justify-content-evenly ' style={{ width: '100%', height: '130vh', backgroundColor: '#e6e6e6', marginTop: '35px',overflow:'hidden' }}>
+        <div ref={aboutUsRef} className='row1 d-flex justify-content-evenly ' style={{ width: '100%', height: '130vh', backgroundColor: '#e6e6e6', marginTop: '65px',overflow:'hidden' }}>
           <div style={{ marginTop: '100px' }} className='col-lg-6' >
             <h1 data-aos="fade-up" style={{ fontSize: '40px' }} className='head1'>ABOUT EX-MEDIA</h1>
             <p className='para1 ms-5' style={{ fontFamily: '"Playfair Display", serif', fontSize: '22px', marginTop: '-30px' }}>Since 2006, Exmedia has been a trailblazing Advertisement agency, driving brand success through innovation, creativity, and strategic excellence. With an illustrious history, we've honed our craft to deliver impactful campaigns that transcend conventional boundaries. From dynamic visuals to compelling narratives, our diverse expertise in advertising, design, and branding has fueled the growth of numerous clients. We're not just an agency; we're your partners in shaping brand legacies. With a deep understanding of market dynamics, consumer behavior, and emerging trends, Exmedia is your compass to navigate the ever-evolving advertising landscape, ensuring your brand remains at the forefront of industry innovation.</p>
